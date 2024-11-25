@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>ROUSTTTTZZZ</title>
+
+        <style>
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                background: linear-gradient(45deg, navy, purple);
+                margin: 0;
+                padding: 0;
+            }
+
+            .login-container {
+                background: linear-gradient(45deg, blue, purple, white);
+                height: 500px;
+                border-radius: 70px;
+                padding: 5px;
+                width: 800px;
+                border-color: antiquewhite;
+                margin: 100px auto;
+            }
+
+            .login-container h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 30px;
+                text-align: center;
+                font-weight: 900;
+            }
+
+            .login-container button {
+                display: block;
+                margin: 20px auto;
+                padding: 10px;
+                width: 200px;
+                transform:translateY(200px);
+              border-radius:20px;
+            }
+
+            @keyframes jalan {
+                0% {
+                    transform: translateX(-2px);
+                }
+                100% {
+                    transform: translateX(80px);
+                }
+            }
+
+            .gerak {
+                font-family: 'Times New Roman', Times, serif;
+                color: white;
+                animation: jalan 3s infinite alternate linear;
+                margin-top:300px;
+                
+            }
+
+            @media (max-width: 768px) {
+                .login-container {
+                    width: 90%;
+                    height: auto;
+                    padding: 10px;
+                }
+
+                .login-container input {
+                    width: 100%;
+                }
+
+                .login-container button {
+                    width: 60%;
+                }
+
+                .gerak {
+                    font-size: 14px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-container">
+            <h2>Hellow,Aini Wijayanti</h2>
+            <button type="button" onclick="window.location.href='info.html'">tekan ini ya Bubub</button>
+            <div class="gerak"> Program Dibuat oleh: IKHWAN</div>
+        </div>
+    </body>
+</html>
